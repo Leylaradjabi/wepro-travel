@@ -1,0 +1,107 @@
+@media (max-width: 1200px) {
+
+    .container {
+       max-width: 900px;
+    }
+
+    .promo {
+        overflow: hidden;
+    }
+
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .promo h1{
+        font-size: 82px;
+    }
+
+    .tour_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .excurs_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+   
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .promo{
+        height: 573px;
+    }
+
+    .promo h1{
+        font-size: 58px;
+        line-height: normal;
+    }
+
+    .promo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .tour_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tour_heading a {
+        display: none;
+    }
+
+    .excurs_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pic_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .promo h1 {
+        font-size: 36px;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+        background: none;
+        border: none;
+    }
+
+    .white_box {
+        padding: 43px ;
+        
+    }
+
+    .white_box p {
+        font-size: 13px;
+    }
+
+    .white_box {
+        overflow: hidden;
+        margin-right: 0;
+    }
+
+
+
+    
+}
